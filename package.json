@@ -1,6 +1,6 @@
 {
   "name": "motion-web",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Framework-independent expressive motion buttons as native Web Components.",
   "type": "module",
   "sideEffects": true,
