@@ -1,0 +1,324 @@
+{
+  "repository": "feldmandev/motion-assets",
+  "version": "v0.1.0",
+  "manifestSha256": "4e42a27e2d5022bdf96caa6061005ecf4096478804355f4381655909ee0e50d1",
+  "target": "web",
+  "files": {
+    "src/assets/motion/licenses/ATTRIBUTION.md": {
+      "source": "ATTRIBUTION.md",
+      "sha256": "f0bf38b3fb6bbd9b3a777e57736f51ff4527d4d70eb86a2a0eb246c2032996f5"
+    },
+    "src/assets/motion/licenses/LICENSE": {
+      "source": "LICENSE",
+      "sha256": "25cc2c7cb2590e22d83b73da05d706a43aff0283fea4b5b9c4bf9fd873968c47"
+    },
+    "src/assets/motion/licenses/Apache-2.0.txt": {
+      "source": "LICENSES/Apache-2.0.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    "src/fonts/feldman_font.woff2": {
+      "source": "assets/fonts/FeldmanFont.woff2",
+      "sha256": "71b193c2698819aa8d496e7a59f7a86f19f381ff68caf3d5960fa24ed3c6694d"
+    },
+    "src/assets/motion/licenses/OFL.txt": {
+      "source": "assets/fonts/OFL.txt",
+      "sha256": "5c7964370b4014e85db78d9ef2f7aa4051d0e3eadb7d19118d609c63a3001faf"
+    },
+    "src/assets/motion/assets/shapes/1024/12-sided cookie.svg": {
+      "source": "assets/shapes/1024/12-sided cookie.svg",
+      "sha256": "7ae71f26ca96998cb5117a4abe5068bfcde78a277a06f574997b7890a5a2c1e6"
+    },
+    "src/assets/motion/assets/shapes/1024/4-leaf clover.svg": {
+      "source": "assets/shapes/1024/4-leaf clover.svg",
+      "sha256": "7c0d1f08ab80f3c0650dfdb4a51408a64c0ca760a296b32200196183f4f7a5ff"
+    },
+    "src/assets/motion/assets/shapes/1024/4-sided cookie.svg": {
+      "source": "assets/shapes/1024/4-sided cookie.svg",
+      "sha256": "97eba9600736e02608da7d5294452a6dd2419b8dfd0596dd538c13efe674857a"
+    },
+    "src/assets/motion/assets/shapes/1024/6-sided cookie.svg": {
+      "source": "assets/shapes/1024/6-sided cookie.svg",
+      "sha256": "3a41bbbabe4314cfa33395d7a8fd75557ebde02fbaf3eee04ee3f5d1fedc6e18"
+    },
+    "src/assets/motion/assets/shapes/1024/7-sided cookie.svg": {
+      "source": "assets/shapes/1024/7-sided cookie.svg",
+      "sha256": "ce99bda53ac9951c238ba8c0564ae3651dc33a381ae4d420d29426205b79061b"
+    },
+    "src/assets/motion/assets/shapes/1024/8-leaf clover.svg": {
+      "source": "assets/shapes/1024/8-leaf clover.svg",
+      "sha256": "2a470a0ff500dd9653db211f29081edef3155016a06bf16e9e98f8a87d9c1751"
+    },
+    "src/assets/motion/assets/shapes/1024/9-sided cookie.svg": {
+      "source": "assets/shapes/1024/9-sided cookie.svg",
+      "sha256": "ea698f157d3a2937242fb3d9071e36f792c6d4335f05f495fe06d9edfa529b32"
+    },
+    "src/assets/motion/assets/shapes/1024/Arch.svg": {
+      "source": "assets/shapes/1024/Arch.svg",
+      "sha256": "a3f0c1dfa20d9f74a96becfb2e6e7c1982a4d93c022724a95af38f0306c0868f"
+    },
+    "src/assets/motion/assets/shapes/1024/Arrow.svg": {
+      "source": "assets/shapes/1024/Arrow.svg",
+      "sha256": "82f8c2b0260a788bb35244ff8c5562bfc57758958cf3897182eab530e9942e33"
+    },
+    "src/assets/motion/assets/shapes/1024/Boom.svg": {
+      "source": "assets/shapes/1024/Boom.svg",
+      "sha256": "02024828528b26db5b1606ab1882fbdf06048a5c4e40771c3bec22d028887d80"
+    },
+    "src/assets/motion/assets/shapes/1024/Bun.svg": {
+      "source": "assets/shapes/1024/Bun.svg",
+      "sha256": "6351f84cd9776adbb70d6e001fe5e6b4f9946b7028fadddf5c2e3c7cc73eb255"
+    },
+    "src/assets/motion/assets/shapes/1024/Burst.svg": {
+      "source": "assets/shapes/1024/Burst.svg",
+      "sha256": "007fcba6cce8135455741c7b424a0d9870a196bb67769147b240049c22442b0c"
+    },
+    "src/assets/motion/assets/shapes/1024/Circle.svg": {
+      "source": "assets/shapes/1024/Circle.svg",
+      "sha256": "e796f96b621e7e7133113f632fb4217c4cdfc6436ae8f57d8fba22b8f182253a"
+    },
+    "src/assets/motion/assets/shapes/1024/Diamond.svg": {
+      "source": "assets/shapes/1024/Diamond.svg",
+      "sha256": "f06575de1940f310dec1fd20a741f2751c937a7dc774bdaa3d283270538f2bb4"
+    },
+    "src/assets/motion/assets/shapes/1024/Fan.svg": {
+      "source": "assets/shapes/1024/Fan.svg",
+      "sha256": "68333e2736a2bd5816cbbf4ea4da83ee38ba11a4a2004a574b0266fc8b828abc"
+    },
+    "src/assets/motion/assets/shapes/1024/Flower.svg": {
+      "source": "assets/shapes/1024/Flower.svg",
+      "sha256": "49864e1e54ac2148df9a6a1fa8093fd7f0b429baf76748a0c15d1a8571521f92"
+    },
+    "src/assets/motion/assets/shapes/1024/Gem.svg": {
+      "source": "assets/shapes/1024/Gem.svg",
+      "sha256": "4bc141f821420d04ffcf94f10e0639bf946655cc9882fabb8be20a413bdeb4ba"
+    },
+    "src/assets/motion/assets/shapes/1024/Ghost-ish.svg": {
+      "source": "assets/shapes/1024/Ghost-ish.svg",
+      "sha256": "8e5447572f02e03def9748910365c9c5f573442e8eb5dae0d95d4c8ab7acb807"
+    },
+    "src/assets/motion/assets/shapes/1024/Heart.svg": {
+      "source": "assets/shapes/1024/Heart.svg",
+      "sha256": "3f59f1d1117fa3aa54068edb3012c00a8121a1977f1ff4aee8df96493064fdba"
+    },
+    "src/assets/motion/assets/shapes/1024/Hexagon.svg": {
+      "source": "assets/shapes/1024/Hexagon.svg",
+      "sha256": "9ac602c0c0320a384b4d62596dba79a600d14bcf40afaeac1c227208f6d5bf3a"
+    },
+    "src/assets/motion/assets/shapes/1024/Oval.svg": {
+      "source": "assets/shapes/1024/Oval.svg",
+      "sha256": "395618b8be6682cc466ed6d5f1438a51b226e911ee6628f2b3e9ba3e3a1ed036"
+    },
+    "src/assets/motion/assets/shapes/1024/Pentagon.svg": {
+      "source": "assets/shapes/1024/Pentagon.svg",
+      "sha256": "a49dc26a55f62cfd17ca6ed7aed7c6c43cb8ef0301b40f8003a16791a81f9752"
+    },
+    "src/assets/motion/assets/shapes/1024/Pill.svg": {
+      "source": "assets/shapes/1024/Pill.svg",
+      "sha256": "c4e6428aa424fc160fa6c052bd4014d5fc8551107792236248f5cd5bfa99cc94"
+    },
+    "src/assets/motion/assets/shapes/1024/PixelCircle.svg": {
+      "source": "assets/shapes/1024/PixelCircle.svg",
+      "sha256": "86d02ac20a2e3643d812aae4149be1a28ad55b35207d1b0c93174e1ec3152872"
+    },
+    "src/assets/motion/assets/shapes/1024/PixelTriangle.svg": {
+      "source": "assets/shapes/1024/PixelTriangle.svg",
+      "sha256": "051f7a4b45cda99089fb9975f7354dd8647f98ed1ca9a8c4c52ed536b7597732"
+    },
+    "src/assets/motion/assets/shapes/1024/Puffy.svg": {
+      "source": "assets/shapes/1024/Puffy.svg",
+      "sha256": "781ab11616a91b3eb8d5d17bd3bc82c89d94e88727e05e669de120ea1c32f5d0"
+    },
+    "src/assets/motion/assets/shapes/1024/PuffyDiamond.svg": {
+      "source": "assets/shapes/1024/PuffyDiamond.svg",
+      "sha256": "0eebd9fd1bca2e4da8929b40ac29a238156df0a36b110c72858caafae1952f15"
+    },
+    "src/assets/motion/assets/shapes/1024/SemiCircle.svg": {
+      "source": "assets/shapes/1024/SemiCircle.svg",
+      "sha256": "bf6ef4313a6c58b0b4aa913012e0ad90346c84ec5a1cd23225552824073586f5"
+    },
+    "src/assets/motion/assets/shapes/1024/Slanted.svg": {
+      "source": "assets/shapes/1024/Slanted.svg",
+      "sha256": "ee40113c10f031c63e047e93f138fab2a2b0f9df89c3fe17807b585c89132b3d"
+    },
+    "src/assets/motion/assets/shapes/1024/SoftBoom.svg": {
+      "source": "assets/shapes/1024/SoftBoom.svg",
+      "sha256": "1ff1ec59a62d2035834069362a47ffe53807c4eb79f0802f18a4c0dfae4d0f56"
+    },
+    "src/assets/motion/assets/shapes/1024/SoftBurst.svg": {
+      "source": "assets/shapes/1024/SoftBurst.svg",
+      "sha256": "bde3cdb80ef5c94d8db5adcee495f4d451aa363eecb4a0b38cd27e9043a359f1"
+    },
+    "src/assets/motion/assets/shapes/1024/Square.svg": {
+      "source": "assets/shapes/1024/Square.svg",
+      "sha256": "bf28f77fe5e8b72a6b3711e511042d8f83792a0720a73da09d6f862e43ee631d"
+    },
+    "src/assets/motion/assets/shapes/1024/Sunny.svg": {
+      "source": "assets/shapes/1024/Sunny.svg",
+      "sha256": "d3f23df8aae57d3857dd7324124ed914d901f0d74345c6028bf135c222586636"
+    },
+    "src/assets/motion/assets/shapes/1024/Triangle.svg": {
+      "source": "assets/shapes/1024/Triangle.svg",
+      "sha256": "9f18205d46b614f34b481cd6a5ccb03d30d81394ff7664917e1f96cff1a7718f"
+    },
+    "src/assets/motion/assets/shapes/1024/VerrySunny.svg": {
+      "source": "assets/shapes/1024/VerrySunny.svg",
+      "sha256": "9443c2d4c4eb9ac20f540a873e4633dafc2e5f9e74a23cccb9d2502c0ab52622"
+    },
+    "src/assets/motion/assets/shapes/NOTICE.md": {
+      "source": "assets/shapes/NOTICE.md",
+      "sha256": "5f60fc5fabf3adc750208a7a2abe2bfa658d68b18e8d9bf77ab585454637d3aa"
+    },
+    "src/assets/motion/assets/shapes/catalog.json": {
+      "source": "assets/shapes/catalog.json",
+      "sha256": "f70a7692bbfb3553ae8a82d7a63374ca74402a4f4747e5d6fe23a783e47a105f"
+    },
+    "src/assets/motion/assets/shapes/original/12-sided cookie.svg": {
+      "source": "assets/shapes/original/12-sided cookie.svg",
+      "sha256": "5a9b096ad7d194880925e8b6cf6cfca61cd965cffe169274e6da37b3e70f28ff"
+    },
+    "src/assets/motion/assets/shapes/original/4-leaf clover.svg": {
+      "source": "assets/shapes/original/4-leaf clover.svg",
+      "sha256": "d8d74506f2331c41013f3ec03d41f346d6a17fd019acf1ec2608729295ea0103"
+    },
+    "src/assets/motion/assets/shapes/original/4-sided cookie.svg": {
+      "source": "assets/shapes/original/4-sided cookie.svg",
+      "sha256": "857e9b1a226c1c0a11949862beb5772d8f91fb49e49621e3b4011b2aea57a156"
+    },
+    "src/assets/motion/assets/shapes/original/6-sided cookie.svg": {
+      "source": "assets/shapes/original/6-sided cookie.svg",
+      "sha256": "efba2f7d018a74e137eff5e45ffe835cb495109c5c2a68e4aff0b2036a0ed98c"
+    },
+    "src/assets/motion/assets/shapes/original/7-sided cookie.svg": {
+      "source": "assets/shapes/original/7-sided cookie.svg",
+      "sha256": "906978a51d40dfa9660b20deca71e0f25042b6f05e55e9116616f9ee9de5afe2"
+    },
+    "src/assets/motion/assets/shapes/original/8-leaf clover.svg": {
+      "source": "assets/shapes/original/8-leaf clover.svg",
+      "sha256": "5aa5c9ddfa66c86a51513f2c918fa3bb68bfeffb29ef013a2343a02fdf4c5e1d"
+    },
+    "src/assets/motion/assets/shapes/original/9-sided cookie.svg": {
+      "source": "assets/shapes/original/9-sided cookie.svg",
+      "sha256": "38e7d9ed78ec3d6680933c3c66472548bde55718acc193ac01236f6f32a78a3e"
+    },
+    "src/assets/motion/assets/shapes/original/Arch.svg": {
+      "source": "assets/shapes/original/Arch.svg",
+      "sha256": "8ad99fa400aaade8799f76c7abcb044e9bb0c9ab5a48a89dcef3803c4a4faaa3"
+    },
+    "src/assets/motion/assets/shapes/original/Arrow.svg": {
+      "source": "assets/shapes/original/Arrow.svg",
+      "sha256": "cda632929cf43229fadcec948c803c1e3411fb595917615a0b9714d3e732675c"
+    },
+    "src/assets/motion/assets/shapes/original/Boom.svg": {
+      "source": "assets/shapes/original/Boom.svg",
+      "sha256": "5a370d8fb4db3cd1616045e53f8b3951a1ea31e48abc30cc723fc8bcc54030f2"
+    },
+    "src/assets/motion/assets/shapes/original/Bun.svg": {
+      "source": "assets/shapes/original/Bun.svg",
+      "sha256": "8c5db47ee8ee83a41335b26963d6afcf227a7545cd340f3751b50235f4907956"
+    },
+    "src/assets/motion/assets/shapes/original/Burst.svg": {
+      "source": "assets/shapes/original/Burst.svg",
+      "sha256": "c55af72518cfe0f791ba5e88773a96bad3969ef522d0c7ad41ec01fbb4c4c415"
+    },
+    "src/assets/motion/assets/shapes/original/Circle.svg": {
+      "source": "assets/shapes/original/Circle.svg",
+      "sha256": "dd5da3107c4851e0c341af17ce3529ff7d3743f3bec0fc67bead27600ec92f11"
+    },
+    "src/assets/motion/assets/shapes/original/Diamond.svg": {
+      "source": "assets/shapes/original/Diamond.svg",
+      "sha256": "4f35da02615d30183af7bb8f6701534a7e28427befe2bd68e8e2d4e4ae0bc982"
+    },
+    "src/assets/motion/assets/shapes/original/Fan.svg": {
+      "source": "assets/shapes/original/Fan.svg",
+      "sha256": "03cdeef9818a782464ef4c2d0f282fe1381f319bf37f05a0359bbb7292fc5e25"
+    },
+    "src/assets/motion/assets/shapes/original/Flower.svg": {
+      "source": "assets/shapes/original/Flower.svg",
+      "sha256": "3ce8adeb2bd5b2bf12287eb7281e35a71635510a2f35f38fa0d3db8a61e9fbc3"
+    },
+    "src/assets/motion/assets/shapes/original/Gem.svg": {
+      "source": "assets/shapes/original/Gem.svg",
+      "sha256": "8e7938bde89471a1c31b316c47a36c3da9d9764366f73979b3e76b98891f1e04"
+    },
+    "src/assets/motion/assets/shapes/original/Ghost-ish.svg": {
+      "source": "assets/shapes/original/Ghost-ish.svg",
+      "sha256": "921f7d4580b0627dd0960a18d00ac86970bd7d6126ff46fc0829e1f57e2c0867"
+    },
+    "src/assets/motion/assets/shapes/original/Heart.svg": {
+      "source": "assets/shapes/original/Heart.svg",
+      "sha256": "c852fd7a182cbb3bb8673d750397436094690146afc1715df675b6a8fd23a8a5"
+    },
+    "src/assets/motion/assets/shapes/original/Hexagon.svg": {
+      "source": "assets/shapes/original/Hexagon.svg",
+      "sha256": "4395ebac155f2e28c98b01747ba5c7c8056bc29049f25dee925212fee1a837b4"
+    },
+    "src/assets/motion/assets/shapes/original/Oval.svg": {
+      "source": "assets/shapes/original/Oval.svg",
+      "sha256": "50f8275bda7f030b23cd53d2fbc0774d8208de50f9bccad3fadde920d056243f"
+    },
+    "src/assets/motion/assets/shapes/original/Pentagon.svg": {
+      "source": "assets/shapes/original/Pentagon.svg",
+      "sha256": "69efbae6d2b3994bd7066f6c6847f76fc3966d10031ccde08840e77583ec0132"
+    },
+    "src/assets/motion/assets/shapes/original/Pill.svg": {
+      "source": "assets/shapes/original/Pill.svg",
+      "sha256": "11a9ff4c461859ddb5aeb553a9b24631f330f570317e7a2b50a4318305d74980"
+    },
+    "src/assets/motion/assets/shapes/original/PixelCircle.svg": {
+      "source": "assets/shapes/original/PixelCircle.svg",
+      "sha256": "69daa901600adab806d84c87644578fd4c0f58047d4f7156d20bd5830cf686d0"
+    },
+    "src/assets/motion/assets/shapes/original/PixelTriangle.svg": {
+      "source": "assets/shapes/original/PixelTriangle.svg",
+      "sha256": "fcd9422091205024dff1648bd44cbbccca72ac115a9a5329ed8dcfb6c8c47e85"
+    },
+    "src/assets/motion/assets/shapes/original/Puffy.svg": {
+      "source": "assets/shapes/original/Puffy.svg",
+      "sha256": "fdcbeaa5548beece25779b903c45f2a5460ac48bb5caf69d6ec92bd866267113"
+    },
+    "src/assets/motion/assets/shapes/original/PuffyDiamond.svg": {
+      "source": "assets/shapes/original/PuffyDiamond.svg",
+      "sha256": "9128325289958734b82da5c978442408835dd0b7adce46e623703733038a87af"
+    },
+    "src/assets/motion/assets/shapes/original/SemiCircle.svg": {
+      "source": "assets/shapes/original/SemiCircle.svg",
+      "sha256": "ff18da53fda455d5b0adf0406431aa182931780521ef9ef475b028e02585edef"
+    },
+    "src/assets/motion/assets/shapes/original/Slanted.svg": {
+      "source": "assets/shapes/original/Slanted.svg",
+      "sha256": "4d0176bdc2ffe38a82958f7619fbc7ae0a2f33783726cb65d858d0154bd3cf81"
+    },
+    "src/assets/motion/assets/shapes/original/SoftBoom.svg": {
+      "source": "assets/shapes/original/SoftBoom.svg",
+      "sha256": "41a0b72175fb95da86f70a7a3f7efce82230426df182f6a56e66f56bef5e3874"
+    },
+    "src/assets/motion/assets/shapes/original/SoftBurst.svg": {
+      "source": "assets/shapes/original/SoftBurst.svg",
+      "sha256": "a52c003ac89a56f8235a494137238902ffbaec085ef538bc04a58fec4772fd0d"
+    },
+    "src/assets/motion/assets/shapes/original/Square.svg": {
+      "source": "assets/shapes/original/Square.svg",
+      "sha256": "9adf1cbc537dfc3738457e1f92a881ca9debbc9f908633081b6391dbc809a82d"
+    },
+    "src/assets/motion/assets/shapes/original/Sunny.svg": {
+      "source": "assets/shapes/original/Sunny.svg",
+      "sha256": "0fc9bf0c60950a785dd637e11db38d5065d5c3b55a42744665e4d479b2ddc47b"
+    },
+    "src/assets/motion/assets/shapes/original/Triangle.svg": {
+      "source": "assets/shapes/original/Triangle.svg",
+      "sha256": "7fe90a99e58eb41bf8aa6748347bf5f2df8e39e4cd77c9609239cf7d078811b9"
+    },
+    "src/assets/motion/assets/shapes/original/VerrySunny.svg": {
+      "source": "assets/shapes/original/VerrySunny.svg",
+      "sha256": "e1711d6ee0b83243f8f2b1092fdaa8ecf014c1b9eb5aa34d5aff0b1a41fbb232"
+    },
+    "src/assets/motion/assets/symbols/catalog.json": {
+      "source": "assets/symbols/catalog.json",
+      "sha256": "977394fc51a6ea713c708d1ff9d86d6341c6e4b797ee3082d0de65e524487ddc"
+    },
+    "src/fonts/material_symbols_rounded.woff2": {
+      "source": "assets/symbols/material_symbols_rounded.woff2",
+      "sha256": "a10b730522c82c747d214f55d942813724f34670071a4dbcdb33b481ff46489f"
+    }
+  }
+}

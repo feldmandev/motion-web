@@ -20,7 +20,8 @@
     "./motion-split-button": {
       "types": "./src/motion-split-button.d.ts",
       "import": "./src/motion-split-button.js"
-    }
+    },
+    "./assets/*": "./src/assets/motion/*"
   },
   "files": [
     "src",
