@@ -1,7 +1,7 @@
 {
   "repository": "feldmandev/motion-assets",
   "version": "v0.1.0",
-  "manifestSha256": "dbf4a6b3580493a3ee27481b4b3c4176d026efe9bfab65d39624699db7256808",
+  "manifestSha256": "4e42a27e2d5022bdf96caa6061005ecf4096478804355f4381655909ee0e50d1",
   "target": "web",
   "files": {
     "src/assets/motion/licenses/ATTRIBUTION.md": {
