@@ -1,5 +1,5 @@
-const feldmanFontUrl = new URL('./fonts/feldman_font.ttf', import.meta.url).href;
-const materialSymbolsUrl = new URL('./fonts/material_symbols_rounded.ttf', import.meta.url).href;
+const feldmanFontUrl = new URL('./fonts/feldman_font.woff2', import.meta.url).href;
+const materialSymbolsUrl = new URL('./fonts/material_symbols_rounded.woff2', import.meta.url).href;
 
 function ensureMotionStyles() {
   if (document.getElementById('motion-web-fonts')) return;
@@ -8,14 +8,14 @@ function ensureMotionStyles() {
   style.textContent = `
     @font-face {
       font-family: 'Motion Feldman Font';
-      src: url('${feldmanFontUrl}') format('truetype');
+      src: url('${feldmanFontUrl}') format('woff2');
       font-weight: 1 1000;
       font-stretch: 25% 151%;
       font-style: normal;
     }
     @font-face {
       font-family: 'Motion Material Symbols Rounded';
-      src: url('${materialSymbolsUrl}') format('truetype');
+      src: url('${materialSymbolsUrl}') format('woff2');
       font-weight: 100 700;
       font-style: normal;
     }

@@ -1,0 +1,4 @@
+# Preserve checksummed Motion asset bytes across platforms.
+src/assets/motion/** -text
+"src/fonts/feldman_font.woff2" -text
+"src/fonts/material_symbols_rounded.woff2" -text
