@@ -124,6 +124,8 @@ const styles = `
     cursor: default;
   }
 
+  ::slotted([hidden]) { display: none !important; }
+
   ::slotted(.icon),
   ::slotted(.label) {
     position: relative;
@@ -259,6 +261,7 @@ export class MotionButton extends HTMLElement {
   #lastFrameTime = 0;
   #visuallyPressed = false;
   #initialized = false;
+  #ready = false;
   #resizeObserver;
   #defaultState = {};
   #defaultPressedState = {};
@@ -281,7 +284,7 @@ export class MotionButton extends HTMLElement {
     const root = this.attachShadow({ mode: 'open' });
     root.innerHTML = `
       <style>${styles}</style>
-      <button part="button" type="button">
+      <button part="button" type="button" disabled>
         <slot name="icon"></slot>
         <slot name="label"></slot>
       </button>
@@ -303,17 +306,19 @@ export class MotionButton extends HTMLElement {
     this.#ensureContent();
     this.#resizeObserver.observe(this.#button);
     document.addEventListener(MOTION_LEVEL_CHANGE_EVENT, this.#onLevelChange);
-    this.#resolveLevel();
-    this.#sync();
+    this.#initialized = false;
+    queueMicrotask(() => {if (!this.isConnected) return; this.#ready = true; this.#resolveLevel(); this.#sync();});
   }
 
   disconnectedCallback() {
+    this.#ready = false;
     this.#endPress();
     this.#resizeObserver.disconnect();
     document.removeEventListener(MOTION_LEVEL_CHANGE_EVENT, this.#onLevelChange);
     clearTimeout(this.#rippleTimer);
     cancelAnimationFrame(this.#frame);
     this.#frame = null;
+    this.#button.style.width = "";
   }
 
   attributeChangedCallback() {
@@ -356,7 +361,7 @@ export class MotionButton extends HTMLElement {
   }
 
   #sync() {
-    if (!this.#button || !this.#icon || !this.#label) return;
+    if (!this.#ready || !this.#button || !this.#icon || !this.#label) return;
     const icon = this.icon;
     const label = this.label;
     this.#icon.textContent = icon;
@@ -399,6 +404,7 @@ export class MotionButton extends HTMLElement {
   }
 
   #syncTargetState() {
+    if (!this.#ready) return;
     if (!this.#button) return;
     const state = this.#currentState();
     const spec = this.#currentSpec();
@@ -434,6 +440,7 @@ export class MotionButton extends HTMLElement {
       this.#velocities = Object.fromEntries(Object.keys(this.#targets).map(key => [key, 0]));
       this.#initialized = true;
       this.#renderNumericState();
+      this.#releaseWidth();
       return;
     }
 
@@ -462,7 +469,12 @@ export class MotionButton extends HTMLElement {
       this.#frame = requestAnimationFrame(nextTime => this.#animate(nextTime));
     } else {
       this.#frame = null;
+      this.#releaseWidth();
     }
+  }
+
+  #releaseWidth() {
+    if (!this.#visuallyPressed && !this.#axesPulse && this.#pressTimer === null) this.#button.style.width = "";
   }
 
   #renderNumericState() {
@@ -549,6 +561,7 @@ export class MotionButton extends HTMLElement {
 
   #beginPress(x, y, bounds) {
     this.#endPress();
+    this.#button.style.width = bounds.width + "px";
     this.#performHaptic(this.#resolveDefault().haptic);
     this.#pressTimer = setTimeout(() => {
       this.#setVisuallyPressed(true);
@@ -573,7 +586,7 @@ export class MotionButton extends HTMLElement {
       // the corner keeps a single continuous motion toward its target.
       clearTimeout(this.#pressTimer);
       this.#pressTimer = null;
-      if (this.#prefersReducedMotion() || this.motionLevel === 'none') return;
+      if (this.#prefersReducedMotion() || this.motionLevel === 'none') {this.#releaseWidth(); return;}
       this.#axesPulse = true;
       this.#syncTargetState();
       clearTimeout(this.#pulseTimer);
@@ -637,7 +650,7 @@ function mergeState(base, state = {}) {
   };
 }
 
-function stepSpring(value, velocity, target, elapsed, spec) {
+export function stepSpring(value, velocity, target, elapsed, spec) {
   if (spec.type === 'snap' || elapsed <= 0) return { value: target, velocity: 0, finished: true };
   const omega = Math.sqrt(Math.max(0.01, spec.stiffness));
   const damping = Math.max(0.01, spec.dampingRatio);

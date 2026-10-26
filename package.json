@@ -1,7 +1,7 @@
 {
   "name": "motion-web",
-  "version": "0.6.4",
-  "description": "Framework-independent expressive motion buttons as native Web Components.",
+  "version": "0.7.0",
+  "description": "Framework-independent Material 3 Expressive components with Motion animations.",
   "type": "module",
   "sideEffects": true,
   "scripts": {
@@ -20,6 +20,18 @@
     "./motion-split-button": {
       "types": "./src/motion-split-button.d.ts",
       "import": "./src/motion-split-button.js"
+    },
+    "./motion-card": {
+      "types": "./src/motion-surfaces.d.ts",
+      "import": "./src/motion-card.js"
+    },
+    "./motion-shape": {
+      "types": "./src/motion-surfaces.d.ts",
+      "import": "./src/motion-shape.js"
+    },
+    "./motion-dropdown": {
+      "types": "./src/motion-surfaces.d.ts",
+      "import": "./src/motion-dropdown.js"
     }
   },
   "files": [
