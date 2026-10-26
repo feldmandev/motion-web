@@ -32,7 +32,8 @@
     "./motion-dropdown": {
       "types": "./src/motion-surfaces.d.ts",
       "import": "./src/motion-dropdown.js"
-    }
+    },
+    "./assets/*": "./src/assets/motion/*"
   },
   "files": [
     "src",
