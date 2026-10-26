@@ -49,7 +49,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ofercraft/motion-web.git"
+    "url": "git+https://github.com/feldmandev/motion-web.git"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^21.2.18",

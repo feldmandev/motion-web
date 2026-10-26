@@ -7,7 +7,7 @@ Framework-independent expressive motion controls built as native Web Components 
 ## Install
 
 ```sh
-npm install github:ofercraft/motion-web
+npm install github:feldmandev/motion-web
 ```
 
 ```js
