@@ -1,12 +1,12 @@
 {
   "repository": "feldmandev/motion-assets",
-  "version": "v0.1.0",
-  "manifestSha256": "4e42a27e2d5022bdf96caa6061005ecf4096478804355f4381655909ee0e50d1",
+  "version": "v0.1.15",
+  "manifestSha256": "583a85c1f72d51e0bb6ddafaf04e8046d69e11ba9bc2e23f1f6e6547e07b34d1",
   "target": "web",
   "files": {
     "src/assets/motion/licenses/ATTRIBUTION.md": {
       "source": "ATTRIBUTION.md",
-      "sha256": "f0bf38b3fb6bbd9b3a777e57736f51ff4527d4d70eb86a2a0eb246c2032996f5"
+      "sha256": "8d09ffa3893f35339d2330258fec5136593df9ecce53d5181811863cb2a3e50d"
     },
     "src/assets/motion/licenses/LICENSE": {
       "source": "LICENSE",
